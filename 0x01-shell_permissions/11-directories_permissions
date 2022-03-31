@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 111 -rd . 
+find . -type d -exec chmod 111 {}\; 
