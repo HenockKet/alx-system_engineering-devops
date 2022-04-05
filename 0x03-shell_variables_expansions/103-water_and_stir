@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(($(printenv WATER) + $(printenv STIR)))
