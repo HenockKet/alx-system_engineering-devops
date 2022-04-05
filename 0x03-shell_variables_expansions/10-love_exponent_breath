@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv BREATH | tr -d '\n' | printenv LOVE
