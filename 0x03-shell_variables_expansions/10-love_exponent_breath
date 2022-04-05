@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(printenv BREATH LOVE)\n\n"
+echo -e "$(printenv BREATH LOVE)\n\n"
