@@ -1,2 +1,2 @@
-bin/bash
+#!/bin/bash
 touch 11 | echo {a..z} | tr ' ' '\n' > 11 | touch 22 | echo {a..z} | tr ' ' '\n' > 22 | join -j 2 11 22
